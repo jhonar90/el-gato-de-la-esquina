@@ -226,48 +226,37 @@ img{
 
 
 /**FOOTER**/
+
+@media(min-width:768px){
+    .footer{
+        padding: 3rem 0;
+        margin-top: 4rem; 
+    }
+    .logo-enlace__footer{
+        font-size: 2rem;
+    }
+    
+}
 .footer{
-    display: flex;
-    justify-content: space-between;
     padding: 3rem 0;
     margin-top: 4rem; 
-   
 }
-
-.enlaces-footer{
-    
-    justify-content: space-between;
-    text-transform: uppercase;
-    color: var(--negro);
-    text-decoration: none;
-    cursor: pointer;
-    z-index: 0;
-}
-
-.link__footer{
-    text-align: center;
-    width: fit-content;
-    position: relative;
-    font-size: 20px;
-    margin: 0 auto 48px;
+.logo-enlace__footer{
+    font-size: 2rem;
 }
 
 /**ENTRADA1**/
 
 @media(min-width:768px){
-    .contenedor{
+    .contenedor-flex{
         display: grid;
+        grid-template-columns: 2fr 1fr;
         column-gap: 2rem;
+        
     }
 
-    .entrada1-image{
-        grid-column: 2 / 3;
+    .sidebar-1{
+        margin-top: 23rem;
     }
-
-    .entrada1-blog{
-        grid-column: 1 / 1;
-    }
-
+    
 }
-
-
