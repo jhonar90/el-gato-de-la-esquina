@@ -18,15 +18,15 @@
     <!--#navegacion-->
     <div class="navegacion ">
             
-            <a class="link link-1">
-                tips
+            <a href="index.html" class="link link-1">
+                inicio
             </a>
 
             <a class="link link-1">
-                Contacto
+                galeria
             </a>
 
-            <a class="link link-1">
+            <a href="contacto.html" class="link link-1">
                 Contacto
             </a>
 
@@ -51,8 +51,14 @@
             <h3>¿como saber si padezco de gatofilia? </h3>
 
             <article class="entrada">
+                
+                    
+                </picture>
                 <div class="entrada__imagen">
-                    <img src="img/blog1.jpg" alt="imagen blog" loading="lazy">
+                    <picture>
+                        <source srcset="img/blog1.webp" type="image/webp" loading="lazy">
+                        <img src="img/blog1.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entrada__contenido">
@@ -64,7 +70,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog2.jpg" alt="imagen blog" loading="lazy">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="image/webp" loading="lazy">
+                        <img src="img/blog2.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entrada__contenido">
@@ -76,7 +85,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog3.jpg" alt="imagen blog" loading="lazy">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="image/webp" loading="lazy">
+                        <img src="img/blog3.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entrada__contenido">
@@ -89,7 +101,10 @@
 
         <aside class="contenedor sidebar">
             <div class="sidebar--image">
-                <img src="img/sidebar1.jpg" class="sidebar--image__1" alt="imagen de gato y humano" loading="lazy">
+                <picture>
+                     <source srcset="img/sidebar1.webp" class="sidebar--image__1" type="image/webp" loading="lazy">
+                     <img src="img/sidebar1.jpg" class="sidebar--image__1" alt="imagen de gato y humano" loading="lazy">
+                </picture>
     
                 <h3>Hola! Gracias por visitar mi blog.</h3>
                 <p>Soy el Gato de la esquina, un amante mas de estos felinos y quiero compartir mis experiencias y conocimientos con tigo, 
@@ -117,6 +132,7 @@
 
 </footer>
 
+<script src="js/modernizr.js"></script>
 
 </body>
 </html>
